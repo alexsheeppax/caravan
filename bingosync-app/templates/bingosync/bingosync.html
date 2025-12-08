@@ -9,7 +9,7 @@
 {% block page_body %}
 <div class="container" style="height: 97vh">
     <div style="position: relative">
-        <h1 style="display: inline-block;"><a href="{% url 'rooms' %}">Bingosync</a> - {{ room.name }}</h1>
+        <h1 style="display: inline-block;"><a href="{% url 'rooms' %}">Caravan</a> - {{ room.name }}</h1>
         <h4 style="display: inline-block; position: absolute; right: 0; bottom: 0;">
             {% if player.is_spectator %}Spectating{% else %}Playing{% endif %} as: {{ player.name }}
             <a class="btn btn-default" href="{% url 'room_disconnect' room.encoded_uuid %}">
