@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Import environment-dependent secrets from secret_settings.py,
 # an uncommitted file that varies between dev and prod environments.
 try:
-    from bingosync.secret_settings import IS_PROD, SECRET_KEY, ADMINS, SERVER_EMAIL, DB_USER
+    from bingosync.secret_settings import IS_PROD, SECRET_KEY, ADMINS, SERVER_EMAIL, DB_USER, DB_PASS
 except ImportError as e:
     raise ImportError("secret_settings.py is missing! "
                       "You may need to create one from secret_settings.py.template") from e
@@ -99,6 +99,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bingosync',
         'USER': DB_USER,
+        'PASSWORD': DB_PASS
     }
 }
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
