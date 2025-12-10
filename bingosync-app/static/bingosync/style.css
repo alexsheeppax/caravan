@@ -255,19 +255,19 @@
 }
 
 .greensquare {
-    background-image: linear-gradient(#31D814, #00B500 60%, #20A00A);
+    background-image: linear-gradient(#0da337, #237e3d 60%, #2E6F40);
 }
 
 .redsquare {
-    background-image: linear-gradient(#FF4944, #DA4440 60%, #CE302C);
+    background-image: linear-gradient(#dd3352, #c32a45 10%, #b6102e);
 }
 
 .orangesquare {
-    background-image: linear-gradient(#FF9C12, #F98E1E 60%, #D0800F);
+    background-image: linear-gradient(#0d48b5, #022b75);
 }
 
 .bluesquare {
-    background-image: linear-gradient(#409CFF, #37A1DE 60%, #088CBD);
+    background-image: linear-gradient(#f8e009, #cab602);
 }
 
 .purplesquare {
@@ -275,23 +275,23 @@
 }
 
 .pinksquare {
-    background-image: linear-gradient(#ed86aa, #cc6e8f);
+    background-image: linear-gradient(#fa7d90 80%, #e65b6f);
 }
 
 .brownsquare {
-    background-image: linear-gradient(#ab5c23, #6d3811);
+    background-image: linear-gradient(#fdc060 20%, #be7e15);
 }
 
 .tealsquare {
-    background-image: linear-gradient(#419695, #2e7372);
+    background-image: linear-gradient(#80c786 75%, #4b9651);
 }
 
 .navysquare {
-    background-image: linear-gradient(#0d48b5, #022b75);
+    background-image: linear-gradient(#5daafd, #47a9e2 60%, #088CBD);
 }
 
 .yellowsquare {
-    background-image: linear-gradient(#d8d014, #c1ba0b);
+    background-image: linear-gradient(#ff8520 75%, #c75f0a);
 }
 
 .starred {
@@ -387,43 +387,43 @@
 }
 
 .greenplayer {
-    color: #62c462;
+    color: #0da337;
 }
 
 .redplayer {
-    color: #ee5f5b;
+    color: #c32a45;
 }
 
 .orangeplayer {
-    color: #f89406;
+    color: #1f5bca;
 }
 
 .blueplayer {
-    color: #5bc0de;
+    color: #f8e009;
 }
 
 .purpleplayer {
-    color: #822dbf;
+    color: #a647eb;
 }
 
 .navyplayer {
-    color: #0d48b5;
+    color: #5daafd;
 }
 
 .tealplayer {
-    color: #419695;
+    color: #80c786;
 }
 
 .pinkplayer {
-    color: #de799c;
+    color: #fa7d90;
 }
 
 .brownplayer {
-    color: #ab5c23;
+    color: #fdc060;
 }
 
 .yellowplayer {
-    color: #c1ba0b;
+    color: #ff8520;
 }
 
 .color-chooser {

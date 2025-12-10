@@ -266,7 +266,7 @@ class Game(models.Model):
         return goal_event
 
 
-SLOT_RANGE = range(1, 26)
+SLOT_RANGE = range(1, 37)
 SLOT_CHOICES = [(num, str(num)) for num in SLOT_RANGE]
 
 def validate_in_slot_range(slot):

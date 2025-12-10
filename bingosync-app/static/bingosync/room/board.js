@@ -3,8 +3,8 @@ var Board = (function(){
 
     var ORDERED_COLORS = ["pink", "red", "orange", "brown", "yellow", "green", "teal", "blue", "navy", "purple"];
 
-    var ROW_NAMES = ["row1", "row2", "row3", "row4", "row5",
-                     "col1", "col2", "col3", "col4", "col5", "tlbr", "bltr"];
+    var ROW_NAMES = ["row1", "row2", "row3", "row4", "row5", "row6",
+                     "col1", "col2", "col3", "col4", "col5", "col6", "tlbr", "bltr"];
 
     function sortColors(colors) {
         var orderedColors = [];
@@ -112,7 +112,7 @@ var Board = (function(){
         this.getBoardUrl = getBoardUrl;
         this.selectGoalUrl = selectGoalUrl;
         this.squares = [];
-        for (var i = 0; i < 25; i++) {
+        for (var i = 0; i < 36; i++) {
             var $square = $board.find("#slot" + (i + 1));
             this.squares.push(new Square($square));
         }

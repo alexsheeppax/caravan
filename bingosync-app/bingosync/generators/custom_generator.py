@@ -40,12 +40,12 @@ def _parse_simple_list(custom_board, game_type):
     if not isinstance(custom_board, list):
         raise InvalidBoardException('Board must be a list')
 
-    if game_type == GameType.custom and len(custom_board) != 25:
+    if game_type == GameType.custom and len(custom_board) != 36:
         raise InvalidBoardException(
-                'A fixed board must have exactly 25 goals (found {})'.format(len(custom_board)))
-    elif game_type == GameType.custom_randomized and len(custom_board) < 25:
+                'A fixed board must have exactly 36 goals (found {})'.format(len(custom_board)))
+    elif game_type == GameType.custom_randomized and len(custom_board) < 36:
         raise InvalidBoardException(
-                'A randomized board must have at least 25 goals (found {})'.format(len(custom_board)))
+                'A randomized board must have at least 36 goals (found {})'.format(len(custom_board)))
 
     for i, square in enumerate(custom_board):
         _validate_square(i, square)
