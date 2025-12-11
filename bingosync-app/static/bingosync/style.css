@@ -255,7 +255,7 @@
 }
 
 .greensquare {
-    background-image: linear-gradient(#3af870 10%, #237e3d 35%, #237e3d 80%, #2E6F40);
+    background-image: linear-gradient(#04b636 5%, #237e3d 35%, #237e3d 80%, #2E6F40);
 }
 
 .redsquare {
@@ -263,7 +263,7 @@
 }
 
 .orangesquare {
-    background-image: linear-gradient(#6294f1 10%,#0d48b5 35%, #0d48b5 80%, #022b75);
+    background-image: linear-gradient(#3e76df 5%,#0d48b5 35%, #0d48b5 80%, #022b75);
 }
 
 .bluesquare {
