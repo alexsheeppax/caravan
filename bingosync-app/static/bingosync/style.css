@@ -291,7 +291,7 @@
 }
 
 .yellowsquare {
-    background-image: linear-gradient(#b8aad9 20%, #7962a3 40%, #7962a3 80%, #93718c);
+    background-image: linear-gradient(#b8aad9 5%, #7962a3 40%, #803c56 80%, #93718c);
 }
 
 .starred {
