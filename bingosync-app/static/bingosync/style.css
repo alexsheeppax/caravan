@@ -255,23 +255,23 @@
 }
 
 .greensquare {
-    background-image: linear-gradient(#0da337, #237e3d 60%, #2E6F40);
+    background-image: linear-gradient(#3af870 10%, #237e3d 60%, #2E6F40);
 }
 
 .redsquare {
-    background-image: linear-gradient(#dd3352, #c32a45 10%, #b6102e);
+    background-image: linear-gradient(#f35572 10%, #c32a45 35%, #b6102e);
 }
 
 .orangesquare {
-    background-image: linear-gradient(#0d48b5, #022b75);
+    background-image: linear-gradient(#6294f1 10%,#0d48b5, #022b75);
 }
 
 .bluesquare {
-    background-image: linear-gradient(#f8e009, #cab602);
+    background-image: linear-gradient(#f0e15a 10%, #f8e009, #cab602);
 }
 
 .purplesquare {
-    background-image: linear-gradient(#faac75 20%, #cd560b 80%, #af7971);
+    background-image: linear-gradient(#faac75 10%, #cd560b 35%, #af7971);
 }
 
 .pinksquare {
