@@ -129,7 +129,7 @@ class CustomTestCase(test.TestCase):
             [{"name": "goal 24a"}, {"name": "goal 24b"}],
             [{"name": "goal 25a"}, {"name": "goal 25b"}]
         ]
-
+        """
         self.numeric_isaac_goals = [
             [{"name": "easy 1"}, {"name": "easy 2"}, {"name": "easy 3"}, {"name": "easy 4"}, {"name": "easy 5"},
              {"name": "easy 6"}, {"name": "easy 7"}, {"name": "easy 8"}, {"name": "easy 9"}, {"name": "easy 10"}],
@@ -137,7 +137,7 @@ class CustomTestCase(test.TestCase):
              {"name": "medium 6"}, {"name": "medium 7"}, {"name": "medium 8"}, {"name": "medium 9"}, {"name": "medium 10"}],
             [{"name": "hard 1"}, {"name": "hard 2"}, {"name": "hard 3"}, {"name": "hard 4"}],
             [{"name": "very hard 1"}]]
-
+        """
 
     def make_room_with_custom_json(self, **overrides):
         args = {
@@ -194,7 +194,7 @@ class CustomTestCase(test.TestCase):
             {"name": "goal 25a"}, {"name": "goal 12b"}, {"name": "goal 16b"}, {"name": "goal 09b"}, {"name": "goal 03b"},
             {"name": "goal 06a"}, {"name": "goal 04b"}, {"name": "goal 23b"}, {"name": "goal 15a"}, {"name": "goal 17a"},
             {"name": "goal 13a"}, {"name": "goal 20a"}, {"name": "goal 07b"}, {"name": "goal 01b"}, {"name": "goal 24b"}])
-
+    """
     def test_isaac_custom(self):
         self.maxDiff = 100000
         create_resp = self.make_room_with_custom_json(custom_json=json.dumps(self.numeric_isaac_goals),
@@ -209,7 +209,7 @@ class CustomTestCase(test.TestCase):
             {'name': 'easy 2'}, {'name': 'medium 8'}, {'name': 'very hard 1'}, {'name': 'medium 10'}, {'name': 'easy 7'},
             {'name': 'medium 5'}, {'name': 'easy 7'}, {'name': 'medium 10'}, {'name': 'easy 4'}, {'name': 'hard 1'},
             {'name': 'easy 4'}, {'name': 'medium 2'}, {'name': 'easy 8'}, {'name': 'hard 3'}, {'name': 'medium 8'}])
-
+    """
     def test_invalid_json(self):
         create_resp = self.make_room_with_custom_json(custom_json="foo")
         self.assertContains(create_resp, "Couldn't parse board json")

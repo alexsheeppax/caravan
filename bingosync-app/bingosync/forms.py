@@ -25,9 +25,9 @@ ROOM_NAME_MAX_LENGTH = Room._meta.get_field("name").max_length
 PLAYER_NAME_MAX_LENGTH = Player._meta.get_field("name").max_length
 
 CUSTOM_JSON_PLACEHOLDER_TEXT = """Paste the board as a JSON list of goals, e.g:
-[ {"name": "Collect 3 Fire Flowers"},
-  {"name": "Defeat Phantom Ganon"},
-  {"name": "Catch a Pokemon while Surfing"},
+[ {"name": "Save every Flea"},
+  {"name": "Wingless Stag Frag"},
+  {"name": "Bug Yuri"},
   ... ]"""
 
 class RoomForm(forms.Form):

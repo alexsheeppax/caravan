@@ -7,6 +7,8 @@ import traceback
 import re
 from io import StringIO
 
+#Some stuff in here might need cutting
+
 WATERSKULLS = "waterskulls"
 NOT_WATERSKULLS = "not_waterskulls"
 OUTPUT_TYPE = NOT_WATERSKULLS
